@@ -35,7 +35,7 @@
         }
         .achievement-img {
             width: 55%;
-            max-width: 400px;
+            max-width: 200px;
             display: block;
             margin: 10px auto;
             border-radius: 10px;
