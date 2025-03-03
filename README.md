@@ -14,7 +14,7 @@
             color: #ffffff;
         }
         .container {
-            max-width: 900px;
+            max-width: 450px;
             margin: auto;
             background: rgba(255, 255, 255, 0.1);
             padding: 30px;
