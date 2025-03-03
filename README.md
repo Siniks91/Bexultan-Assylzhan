@@ -61,10 +61,34 @@
             text-align: justify;
             line-height: 1.6;
         }
+        ul {
+            list-style-type: none;
+        }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+ @media screen and (max-width: 768px) {
+            .container {
+                height: auto;
+                width: 100%;
+            }
+}
+.achievement-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .achievement-item img {
+            margin-left: 20px;
+        }
+
+        .achievement-item div {
+            flex-grow: 1;
+        }
+
     </style>
 </head>
 <body>
