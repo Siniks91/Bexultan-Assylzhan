@@ -34,7 +34,7 @@
             box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
         }
         .achievement-img {
-            width: 100%;
+            width: 55%;
             max-width: 400px;
             display: block;
             margin: 10px auto;
