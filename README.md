@@ -1,8 +1,5 @@
-
 <html lang="kk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Асылжанның Портфолиосы</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -14,9 +11,8 @@
             color: #ffffff;
         }
         .container {
-             width: 100%;
-            height: 56.25vw; 
-            max-width: 1920px; 
+            max-width: 2000px;
+            margin: auto;
             background: rgba(255, 255, 255, 0.1);
             padding: 30px;
             border-radius: 15px;
@@ -24,10 +20,6 @@
             backdrop-filter: blur(10px);
             position: relative;
             animation: fadeIn 1.5s ease-in-out;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            overflow-y: auto;
         }
         .profile-img {
             width: 220px;
@@ -40,7 +32,7 @@
         }
         .achievement-img {
             width: 55%;
-            max-width: 200px;
+            max-width: 180px;
             display: block;
             margin: 10px auto;
             border-radius: 10px;
@@ -61,34 +53,10 @@
             text-align: justify;
             line-height: 1.6;
         }
-        ul {
-            list-style-type: none;
-        }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
- @media screen and (max-width: 768px) {
-            .container {
-                height: auto;
-                width: 100%;
-            }
-}
-.achievement-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .achievement-item img {
-            margin-left: 20px;
-        }
-
-        .achievement-item div {
-            flex-grow: 1;
-        }
-
     </style>
 </head>
 <body>
@@ -97,11 +65,10 @@
         <img src="profile.jpg" alt="Менің суретім" class="profile-img">
         
         <h2>Мен туралы</h2>
-        <p>Менің атым Асылжан РФММ мектебінің 10 В сынып оқушысымың. 2009 жылы 9 қаңтарда Алматы қаласында дүниеге келдім.</p>
+        <p>Менің атым Асылжан. 2009 жылы 9 қаңтарда дүниеге келдім.</p>
         <p>Менің негізгі қызығушылықтарымның бірі – <strong>шаңғы спорты</strong>, әсіресе <strong>freeski</strong>.</p>
         <p>Бұл мен үшін тек спорт емес, сонымен қатар еркіндік пен адреналин көзі.</p>
         <p>Сонымен қатар, мен саяхаттауды жақсы көремін. Осы уақытқа дейін <strong>11 елде</strong> болдым.</p>
-        <p>2021 жылыРеспубликалық Физика-Математика мектебіне 7-сынып оқушысы ретінде оқуға түстім.</p>
         
         <h2>Спорт және өнер жетістіктер</h2>
         <ul>
@@ -132,4 +99,4 @@
         <p>Саяхат тек элитаға ғана емес, <strong>әр адамға қолжетімді</strong> болуы керек.</p>
     </div>
 </body>
-</html>
+</html> 
